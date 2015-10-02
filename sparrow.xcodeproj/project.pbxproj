@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2A238111BBE4036007D3F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A238101BBE4036007D3F0B /* AppDelegate.swift */; };
+		B2A238131BBE4036007D3F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A238121BBE4036007D3F0B /* ViewController.swift */; };
+		B2A238151BBE4036007D3F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A238141BBE4036007D3F0B /* Assets.xcassets */; };
+		B2A238181BBE4036007D3F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A238161BBE4036007D3F0B /* Main.storyboard */; };
+		B2A238231BBE4037007D3F0B /* sparrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A238221BBE4037007D3F0B /* sparrowTests.swift */; };
+		B2A2382E1BBE4037007D3F0B /* sparrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2382D1BBE4037007D3F0B /* sparrowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2A2381F1BBE4037007D3F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A238051BBE4036007D3F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A2380C1BBE4036007D3F0B;
+			remoteInfo = sparrow;
+		};
+		B2A2382A1BBE4037007D3F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A238051BBE4036007D3F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A2380C1BBE4036007D3F0B;
+			remoteInfo = sparrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2A2380D1BBE4036007D3F0B /* sparrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sparrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A238101BBE4036007D3F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2A238121BBE4036007D3F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2A238141BBE4036007D3F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2A238171BBE4036007D3F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2A238191BBE4036007D3F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A2381E1BBE4037007D3F0B /* sparrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A238221BBE4037007D3F0B /* sparrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparrowTests.swift; sourceTree = "<group>"; };
+		B2A238241BBE4037007D3F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A238291BBE4037007D3F0B /* sparrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A2382D1BBE4037007D3F0B /* sparrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparrowUITests.swift; sourceTree = "<group>"; };
+		B2A2382F1BBE4037007D3F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2A2380A1BBE4036007D3F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A2381B1BBE4037007D3F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A238261BBE4037007D3F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2A238041BBE4036007D3F0B = {
+			isa = PBXGroup;
+			children = (
+				B2A2380F1BBE4036007D3F0B /* sparrow */,
+				B2A238211BBE4037007D3F0B /* sparrowTests */,
+				B2A2382C1BBE4037007D3F0B /* sparrowUITests */,
+				B2A2380E1BBE4036007D3F0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2A2380E1BBE4036007D3F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2A2380D1BBE4036007D3F0B /* sparrow.app */,
+				B2A2381E1BBE4037007D3F0B /* sparrowTests.xctest */,
+				B2A238291BBE4037007D3F0B /* sparrowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A2380F1BBE4036007D3F0B /* sparrow */ = {
+			isa = PBXGroup;
+			children = (
+				B2A238101BBE4036007D3F0B /* AppDelegate.swift */,
+				B2A238121BBE4036007D3F0B /* ViewController.swift */,
+				B2A238141BBE4036007D3F0B /* Assets.xcassets */,
+				B2A238161BBE4036007D3F0B /* Main.storyboard */,
+				B2A238191BBE4036007D3F0B /* Info.plist */,
+			);
+			path = sparrow;
+			sourceTree = "<group>";
+		};
+		B2A238211BBE4037007D3F0B /* sparrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2A238221BBE4037007D3F0B /* sparrowTests.swift */,
+				B2A238241BBE4037007D3F0B /* Info.plist */,
+			);
+			path = sparrowTests;
+			sourceTree = "<group>";
+		};
+		B2A2382C1BBE4037007D3F0B /* sparrowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2A2382D1BBE4037007D3F0B /* sparrowUITests.swift */,
+				B2A2382F1BBE4037007D3F0B /* Info.plist */,
+			);
+			path = sparrowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2A2380C1BBE4036007D3F0B /* sparrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A238321BBE4037007D3F0B /* Build configuration list for PBXNativeTarget "sparrow" */;
+			buildPhases = (
+				B2A238091BBE4036007D3F0B /* Sources */,
+				B2A2380A1BBE4036007D3F0B /* Frameworks */,
+				B2A2380B1BBE4036007D3F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sparrow;
+			productName = sparrow;
+			productReference = B2A2380D1BBE4036007D3F0B /* sparrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2A2381D1BBE4037007D3F0B /* sparrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A238351BBE4037007D3F0B /* Build configuration list for PBXNativeTarget "sparrowTests" */;
+			buildPhases = (
+				B2A2381A1BBE4037007D3F0B /* Sources */,
+				B2A2381B1BBE4037007D3F0B /* Frameworks */,
+				B2A2381C1BBE4037007D3F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2A238201BBE4037007D3F0B /* PBXTargetDependency */,
+			);
+			name = sparrowTests;
+			productName = sparrowTests;
+			productReference = B2A2381E1BBE4037007D3F0B /* sparrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2A238281BBE4037007D3F0B /* sparrowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A238381BBE4037007D3F0B /* Build configuration list for PBXNativeTarget "sparrowUITests" */;
+			buildPhases = (
+				B2A238251BBE4037007D3F0B /* Sources */,
+				B2A238261BBE4037007D3F0B /* Frameworks */,
+				B2A238271BBE4037007D3F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2A2382B1BBE4037007D3F0B /* PBXTargetDependency */,
+			);
+			name = sparrowUITests;
+			productName = sparrowUITests;
+			productReference = B2A238291BBE4037007D3F0B /* sparrowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2A238051BBE4036007D3F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lanzisun Tech";
+				TargetAttributes = {
+					B2A2380C1BBE4036007D3F0B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					B2A2381D1BBE4037007D3F0B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B2A2380C1BBE4036007D3F0B;
+					};
+					B2A238281BBE4037007D3F0B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B2A2380C1BBE4036007D3F0B;
+					};
+				};
+			};
+			buildConfigurationList = B2A238081BBE4036007D3F0B /* Build configuration list for PBXProject "sparrow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2A238041BBE4036007D3F0B;
+			productRefGroup = B2A2380E1BBE4036007D3F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2A2380C1BBE4036007D3F0B /* sparrow */,
+				B2A2381D1BBE4037007D3F0B /* sparrowTests */,
+				B2A238281BBE4037007D3F0B /* sparrowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2A2380B1BBE4036007D3F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A238151BBE4036007D3F0B /* Assets.xcassets in Resources */,
+				B2A238181BBE4036007D3F0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A2381C1BBE4037007D3F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A238271BBE4037007D3F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2A238091BBE4036007D3F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A238131BBE4036007D3F0B /* ViewController.swift in Sources */,
+				B2A238111BBE4036007D3F0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A2381A1BBE4037007D3F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A238231BBE4037007D3F0B /* sparrowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A238251BBE4037007D3F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A2382E1BBE4037007D3F0B /* sparrowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2A238201BBE4037007D3F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2A2380C1BBE4036007D3F0B /* sparrow */;
+			targetProxy = B2A2381F1BBE4037007D3F0B /* PBXContainerItemProxy */;
+		};
+		B2A2382B1BBE4037007D3F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2A2380C1BBE4036007D3F0B /* sparrow */;
+			targetProxy = B2A2382A1BBE4037007D3F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2A238161BBE4036007D3F0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A238171BBE4036007D3F0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2A238301BBE4037007D3F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2A238311BBE4037007D3F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2A238331BBE4037007D3F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sparrow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanzisun.sparrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2A238341BBE4037007D3F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sparrow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanzisun.sparrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2A238361BBE4037007D3F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sparrowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanzisun.sparrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sparrow.app/Contents/MacOS/sparrow";
+			};
+			name = Debug;
+		};
+		B2A238371BBE4037007D3F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sparrowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanzisun.sparrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sparrow.app/Contents/MacOS/sparrow";
+			};
+			name = Release;
+		};
+		B2A238391BBE4037007D3F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sparrowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanzisun.sparrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sparrow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B2A2383A1BBE4037007D3F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sparrowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanzisun.sparrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sparrow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2A238081BBE4036007D3F0B /* Build configuration list for PBXProject "sparrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A238301BBE4037007D3F0B /* Debug */,
+				B2A238311BBE4037007D3F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A238321BBE4037007D3F0B /* Build configuration list for PBXNativeTarget "sparrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A238331BBE4037007D3F0B /* Debug */,
+				B2A238341BBE4037007D3F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2A238351BBE4037007D3F0B /* Build configuration list for PBXNativeTarget "sparrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A238361BBE4037007D3F0B /* Debug */,
+				B2A238371BBE4037007D3F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2A238381BBE4037007D3F0B /* Build configuration list for PBXNativeTarget "sparrowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A238391BBE4037007D3F0B /* Debug */,
+				B2A2383A1BBE4037007D3F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2A238051BBE4036007D3F0B /* Project object */;
+}
